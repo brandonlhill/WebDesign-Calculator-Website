@@ -97,3 +97,4 @@ $("#buttonM").click(function(){
     var result = num2 * 0.00018939;
     $("#answerBox2").html(result);
 }); 
+// This the bottom contact function, in which allows for people to place thier email and text

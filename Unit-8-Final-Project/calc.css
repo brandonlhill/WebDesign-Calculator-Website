@@ -146,6 +146,7 @@ body{
     font-size: 20px;
 }
 /*this is the sytle for the large input, below the add text p tag.*/
-.inputTextSize{
+.inputTextSizeBottom{
+    padding: 30px 100px ;
     
-}
+}}
