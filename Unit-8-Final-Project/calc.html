@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brandon's Webpage:</title>
+  <link rel="stylesheet" type="text/css" href="calc.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link href="../../favicon.ico" rel="icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+<!--This controls the navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+             <span class="glyphicon glyphicon-align-justify"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fab fa-angular"></i></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Simple Calculator</a></li>
+                <li><a href="#">Robot Text</a></li>
+                <li><a href="#">fahrenheit to celsius</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Information Tech. Blog</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+<!--End of the Navbar  -->
+<!--jumbotron start, height of this is 920px  -->
+  <header>  
+     <div class="jumbotron jumbotron-fluid jumboback"> <h1 class="titlecard"> Applied<span id="colorOfSpan">/</span>Energistics<span id="colorOfSpan">/</span>Mathematics </h1></div>
+  </header>
+<!--End of the jumbotron header-->
+<!--Start of the first 3 blocks, with information-->
+  <div class="container-fluid">
+    <div class="row"> 
+      <div class="col-lg-4 titlecap1"><h2 class="colintro">Sign Up?</h2></div>
+      <div class="col-lg-4 titlecap1"><h2 class="colintro">How Can You Support Us?</h2></div>
+      <div class="col-lg-4 titlecap1"><h2 class="colintro">Board Of Mathematics</h2></div>
+    </div>
+  </div>
+<!--Jumbotronmiddle page effect start here, and its height is around 500px  -->
+  <div class="jumbotronMiddle">
+    <div class="jumbotronOther jumbotron jumbotron-fluid jumboback"> </div>
+  </div>
+<!--End of the jumbotron middle page-->
+<!--this is the start of the 2 box containers that hold the code in place for the simple calculator, and the f to c calculator -->
+  <div class="container-fluid">
+    <div class="row"> 
+      <div class="col-lg-6 titlecap">
+          <h3 class="">Simple Calculator </h3>
+            <input placeholder="    Put first number in here" id="input3">
+            <input placeholder="    Put number other in here" id="input4">
+            <div class="operatorsCal">
+              <button id="add">+</button>
+              <button id="sub">-</button>
+              <button id="dive">/</button>
+              <button id="mult">*</button>
+            </div>
+            <br>
+            <p id="answerBox"> </p>
+      </div>
+      <div class="col-lg-6 titlecap">
+          <h3 id="statement"></h3>
+          <p> 
+            <input placeholder="    Place Fahrenheit Here" id="input1">
+            <input placeholder="    Place Celsius Here" id="input2">
+          </p>
+              
+          <div class="operators">
+            <p id="result"> </p>
+            <button id="button1">Solve C</button> 
+            <button id="button2">Solve F </button> 
+          </div>
+          <div class="buttonSwapperFixed"> 
+            <button id="buttonSwapper">Fahrenheit to Celsius</button>
+            <button id="buttonSwapperRight">Celsius to Fahrenheit</button>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 titlecap">
+        <h3 class="Feettomiles"></h3>
+        <input placeholder="    Put first number in here" id="input5">
+        <p id="answerBox2"> </p>
+        <button id="buttonM">Solve Miles</button>
+        <button id="buttonF">Solve Feet</button>
+      </div>
+      <div class="col-lg-6 titlecap">
+        <p>Mile to Km</p>
+      </div>
+    </div>
+  </div>
+<!--End of the math section 2 col system-->
+<!--This is the 3 part of the row system: updated 3/14/2017-->
+  <div class="row"> 
+    <div class="col-lg-12 titlecap"> 
+      <h3> Contact Us Below</h3>
+      <div class="inputHolderClass"> 
+        <h5> <span id="colorOfSpan" class="resizeSpan">-</span>Please provide an email<span id="colorOfSpan" class="resizeSpan">-</span></h5>
+        <input id="input" class=" inputTextSize"> 
+      </div> 
+    </div>
+  </div>
+<!--script section and closing tags below!!!! -->
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="script.js" type="text/javascript"></script> 
+</body>
+</html>
